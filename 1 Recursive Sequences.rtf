@@ -85,10 +85,24 @@ All_n = All_(n-1) + Childs_n = All_(n-1) + Adults_(n-1) = All_(n-1) + All_(n-2)\
 \pard\ltrpar\sl276\slmult1\f1\ltrch\lang1033 a_(2n) = a_n^2 + a_(n-1)^2\par
 
 \pard\rtlpar\sl276\slmult1\qr ###\par
+\f0\rtlch\lang1065\'e3\'d3\'c6\'e1\'e5: \f1\ltrch\lang1033 a_(2n+1) = ?\par
 
-\pard\ltrpar\sl276\slmult1 a_(2n+1) = ?\f0\rtlch\lang1065\par
+\pard\ltrpar\sl276\slmult1 a_(2n+1) = a_n * (a_(n-1) + a_(n+1))\par
 
-\pard\rtlpar\sl276\slmult1\qr\'e3\'d3\'c6\'e1\'e5: \u1740?\'98 \'cc\'cf\'e6\'e1 \u1777?\'d7\f1\ltrch\lang1033 n\f0\rtlch\lang1065  \'d1\'c7 \'c8\'e5 \'8d\'e4\'cf \'d8\'d1\u1740?\'de \'e3\u1740?\'9d\'ca\'e6\'c7\'e4 \'c8\'c7 \'98\'c7\'d4\u1740?\'9d\'e5\'c7\u1740? \u1777?\'d7\u1778? \'e6 \u1777?\'d7\u1777? \'98\'c7\'d4\u1740? \'98\'d1\'cf\'bf\par
+\pard\rtlpar\sl276\slmult1\qr\f0\rtlch\lang1065\'e3\'d3\'c6\'e1\'e5: \u1740?\'98 \'cc\'cf\'e6\'e1 \u1777?\'d7\f1\ltrch\lang1033 n\f0\rtlch\lang1065  \'d1\'c7 \'c8\'e5 \'8d\'e4\'cf \'d8\'d1\u1740?\'de \'e3\u1740?\'9d\'ca\'e6\'c7\'e4 \'c8\'c7 \'98\'c7\'d4\u1740?\'9d\'e5\'c7\u1740? \u1777?\'d7\u1778? \'e6 \u1777?\'d7\u1777? \'98\'c7\'d4\u1740? \'98\'d1\'cf\'bf\par
+\'ca\'e6\'d6\u1740?\'cd: \'e5\'e3\'e5\'9d\u1740? \'cd\'c7\'e1\'c7\'ca \'d1\'c7 \'e3\u1740?\'9d\'98\'d4\u1740?\'e3. \'ce\'c8 \u1740?\'98\u1740? \'c7\'d2 \'cd\'c7\'e1\'ca\'9d\'e5\'c7 \'d9\'c7\'e5\'d1\'c7\'f0 \'ca\'c7 \'c2\'ce\'d1 \'cc\'cf\'e6\'e1 \'e3\u1740?\'9d\'d1\'e6\'cf... \'e3\'d3\'c6\'e1\'e5\'9d\u1740? \'cc\'cf\u1740?\'cf \'ca\'da\'d1\u1740?\'dd \'e3\u1740?\'9d\'98\'e4\u1740?\'e3.\par
+
+\pard\ltrpar\sl276\slmult1\f1\ltrch\lang1033 b_n = b_(n-1) + a_(n-1)\tab\tab\tab\tab n >= 2\par
+a_n = b_n + a_(n-1) + b_(n-1) + a_(n-2)\tab\tab n >= 3\par
+b_1 = 1\par
+a_1 = 2\par
+a_2 = 7\par
+
+\pard\rtlpar\sl276\slmult1\qr\f0\rtlch\lang1065\'e4\'98\'ca\'e5:\par
+
+\pard\ltrpar\sl276\slmult1\f1\ltrch\lang1033 b_n = b_(n-1) + a_(n-1)\tab\tab =>\tab a_n = 2 b_n + a_(n-2)\par
+
+\pard\rtlpar\sl276\slmult1\qr\f0\rtlch\lang1065\'ca\'e6\'d6\u1740?\'cd: \'8d\'d8\'e6\'d1 \'cc\'e3\'e1\'c7\'ca \'c8\'da\'cf\u1740? \'d1\'c7 \'cd\'d3\'c7\'c8 \'e3\u1740?\'9d\'98\'e4\u1740?\'e3.\par
 \'e3\'d3\'c6\'e1\'e5: \u1740?\'98 \'cc\'cf\'e6\'e1 \u1777?\'d7\f1\ltrch\lang1033 n\f0\rtlch\lang1065  \'d1\'c7 \'c8\'e5 \'8d\'e4\'cf \'d8\'d1\u1740?\'de \'e3\u1740?\'9d\'ca\'e6\'c7\'e4 \'c8\'c7 \'d3\'e5 \'d1\'e4\'90 \'d1\'e4\'90 \'98\'d1\'cf \'98\'e5 \'c2\'c8\u1740?-\'de\'d1\'e3\'d2 \'e4\'cf\'c7\'d4\'ca\'e5 \'c8\'c7\'d4\u1740?\'e3\'bf\par
 \'e3\'d3\'c6\'e1\'e5: \'8d\'e4\'cf \'d1\'d4\'ca\'e5 \'c8\'e5 \'d8\'e6\'e1 \f1\ltrch\lang1033 n\f0\rtlch\lang1065  \'c8\'c7 \u1776? \'e6 \u1777? \'e6 \u1778? \'cf\'c7\'d1\u1740?\'e3 \'98\'e5 \u1777?\u1778? \'e4\'cf\'c7\'d4\'ca\'e5 \'c8\'c7\'d4\'cf\'bf\par
 \'e3\'d3\'c6\'e1\'e5: \'8d\'e4\'cf \'d1\'d4\'ca\'e5 \'c8\'e5 \'d8\'e6\'e1 \f1\ltrch\lang1033 n\f0\rtlch\lang1065  \'c8\'c7 \u1776? \'e6 \u1777? \'e6 \u1778? \'cf\'c7\'d1\u1740?\'e3 \'98\'e5 \u1777?\u1776?\u1778? \'e4\'cf\'c7\'d4\'ca\'e5 \'c8\'c7\'d4\'cf\'bf\par
